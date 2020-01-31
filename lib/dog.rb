@@ -3,8 +3,9 @@ class Dog
     @name = name
     @breed = breed
   end
-attr_reader :name
-attr_writer :breed
+attr_reader :name, :breed
+attr_writer :name, :breed
+
   # def name=(name)
   #   @name = name
   # end
