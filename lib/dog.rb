@@ -3,21 +3,22 @@ class Dog
     @name = name
     @breed = breed
   end
-
-  def name=(name)
-    @name = name
-  end
-
-  def name
-    @name
-  end
-
-  def name=(breed)
-    @breed = breed
-  end
-
-  def breed
-    @breed
+attr_reader :name
+attr_writer :breed
+  # def name=(name)
+  #   @name = name
+  # end
+  #
+  # def name
+  #   @name
+  # end
+  #
+  # def name=(breed)
+  #   @breed = breed
+  # end
+  #
+  # def breed
+  #   @breed
   end
 
 end
